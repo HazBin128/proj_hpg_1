@@ -1,23 +1,34 @@
+body {
+	background-image: url(../images/back.png);
+
+}
+
+main {
+position:relative;
+}
+
+#content {
+	background-color: white;
+
+}
+
 #header {
-	background-image: url(../images/main.jpg);
+	background-image: url(../images/main_med.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 #top_contacts
 {
-	background-color: blue;
+	background-color: #0174b3;
 	color: white;
 }
 
-#top_contacts #right_cont {
+#right_cont {
 	float:right;
+	text-align: right;
 }
 
-.navbar-collapse, .navbar-nav {
+.navbar-collapse{
 	justify-content: flex-end;
 	}
-
-main {
-position:relative;
-}
