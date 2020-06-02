@@ -1,0 +1,23 @@
+#header {
+	background-image: url(../images/main.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#top_contacts
+{
+	background-color: blue;
+	color: white;
+}
+
+#top_contacts #right_cont {
+	float:right;
+}
+
+.navbar-collapse, .navbar-nav {
+	justify-content: flex-end;
+	}
+
+main {
+position:relative;
+}
