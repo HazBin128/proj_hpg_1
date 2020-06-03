@@ -1,34 +1,93 @@
-body {
-	background-image: url(../images/back.png);
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body 
+{
+	font-family: 'Roboto', sans-serif;
 }
 
-main {
-position:relative;
+main 
+{
+	position:relative;
 }
 
-#content {
+
+ion-icon
+{
+	font-size:1.25rem;
+}
+
+#content 
+{
 	background-color: white;
-
 }
 
-#header {
+#header
+{
 	background-image: url(../images/main_med.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 }
 
-#top_contacts
+@media (max-width: 767px) 
+{
+	#top_contacts
+	{
+		display: none;
+	}
+}
+
+
+
+#top_contacts 
 {
 	background-color: #0174b3;
-	color: white;
 }
 
-#right_cont {
-	float:right;
+#top_contacts  a
+{
+	color: white !important;
+	text-decoration: none !important;
+}
+
+#top_contacts  a:hover
+{
+	text-shadow: 2px 2px 4px #000000;
+}
+
+a ion-icon:hover
+{
+	color:black;
+}
+
+#top_contacts  div
+{
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;	
+}
+
+#left_cont a 
+{
+	padding-right:0.5rem;
+}
+
+#left_cont ion-icon 
+{
+	position:relative;
+       	top:0.2rem;
+}
+
+#right_cont a 
+{
+	padding-left:1rem;
+}
+
+#right_cont 
+{
 	text-align: right;
 }
 
-.navbar-collapse{
+.navbar-collapse
+{
 	justify-content: flex-end;
-	}
+}
+
+/*  */
