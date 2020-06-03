@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body 
+body
 {
 	font-family: 'Roboto', sans-serif;
 }
 
-main 
+main
 {
 	position:relative;
 }
@@ -15,7 +15,7 @@ ion-icon
 	font-size:1.25rem;
 }
 
-#content 
+#content
 {
 	background-color: white;
 }
@@ -27,17 +27,17 @@ ion-icon
 	background-position: center center;
 }
 
-@media (max-width: 767px) 
+@media (max-width: 767px)
 {
 	#top_contacts
 	{
 		display: none;
-	
+
 	}
 
 }
 
-@media (min-width: 767px) 
+@media (min-width: 767px)
 {
 	.navbar-brand
 	{
@@ -45,7 +45,7 @@ ion-icon
 }
 
 
-#top_contacts 
+#top_contacts
 {
 	background-color: #0174b3;
 }
@@ -69,26 +69,26 @@ a ion-icon:hover
 #top_contacts  div
 {
 	padding-top: 0.25rem;
-	padding-bottom: 0.25rem;	
+	padding-bottom: 0.25rem;
 }
 
-#left_cont a 
+#left_cont a
 {
 	padding-right:0.5rem;
 }
 
-#left_cont ion-icon 
+#left_cont ion-icon
 {
 	position:relative;
        	top:0.2rem;
 }
 
-#right_cont a 
+#right_cont a
 {
 	padding-left:1rem;
 }
 
-#right_cont 
+#right_cont
 {
 	text-align: right;
 }
@@ -99,9 +99,3 @@ a ion-icon:hover
 }
 
 /*  */
-
-nav
-{
-	padding: 0 !important;
-	margin: 0 !important;
-}
