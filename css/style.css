@@ -32,9 +32,17 @@ ion-icon
 	#top_contacts
 	{
 		display: none;
+	
 	}
+
 }
 
+@media (min-width: 767px) 
+{
+	.navbar-brand
+	{
+	}
+}
 
 
 #top_contacts 
@@ -91,3 +99,9 @@ a ion-icon:hover
 }
 
 /*  */
+
+nav
+{
+	padding: 0 !important;
+	margin: 0 !important;
+}
